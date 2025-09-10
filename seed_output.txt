@@ -1,0 +1,7 @@
+
+Traceback (most recent call last):
+  File "/mnt/data/micro-learning-app-advanced/backend/seed.py", line 2, in <module>
+    from models import db, User, Lesson, UserProgress
+  File "/mnt/data/micro-learning-app-advanced/backend/models.py", line 1, in <module>
+    from flask_sqlalchemy import SQLAlchemy
+ModuleNotFoundError: No module named 'flask_sqlalchemy'
